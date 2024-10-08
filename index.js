@@ -10,7 +10,7 @@ import { importURL, importUUID } from './importer.js';
 const extensionName = 'st-backport-import-character-from-url';
 const extensionFolderPath = `scripts/extensions/third-party/${extensionName}`;
 const extensionSettings = extension_settings[extensionName];
-const defaultSettings = { force_add_button_setting: true };
+const defaultSettings = { force_add_button_setting: false };
 
 // Loads the extension settings if they exist, otherwise initializes them to the defaults.
 async function loadSettings() {
